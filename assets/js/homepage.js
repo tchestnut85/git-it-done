@@ -34,6 +34,7 @@ var getUserRepos = function(user) {
         }
     })
     .catch(function(error) {
+        console.log(error);
         alert("Unable to connect to GitHub.");
     });
 };
